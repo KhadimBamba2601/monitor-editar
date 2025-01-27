@@ -4,9 +4,9 @@ Proyecto de Monitor
 Este proyecto es una aplicación que permite monitorear en tiempo real el uso de los recursos principales de un sistema: CPU, memoria, disco y red.
 
 1. **Métodos**
- comando psutil para realizar un analisis.
- Comando git para crear versiones en diferentes ramas.
- Funcion while genera un bucle de repetición.
+ comando psutil para realizar un analisis.<br>
+ Comando git para crear versiones en diferentes ramas.<br>
+ Funcion while genera un bucle de repetición.<br>
 
 ## Instalación
 Ejecutamos el programa y este realiza un analisis detallado, genera informes cada 5 segundos durante un periodo de 30 segundos.
