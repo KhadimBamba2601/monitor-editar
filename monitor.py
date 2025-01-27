@@ -1,3 +1,5 @@
+import tkinter as tk
+from tkinter import messagebox
 import psutil
 import time
 from datetime import datetime
@@ -34,3 +36,8 @@ def monitorizar_sistema(duracion=30, intervalo=5):
 # Ejecutar la monitorización (duración total de 30 segundos, con intervalos de 5 segundos)
 if __name__ == "__main__":
     monitorizar_sistema(duracion=30, intervalo=5)
+#Crear la ventana principal
+ventana = tk.Tk()
+ventana.title("Estadísticas del Sistema")
+#Ejecutar la ventana
+ventana.mainloop()
