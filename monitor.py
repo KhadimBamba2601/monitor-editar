@@ -33,7 +33,7 @@ def mostrar_estadisticas_en_ventana():
     #Ejecutar la ventana
     ventana.destroy()
 
-def monitorizar_sistema(duracion=15, intervalo=5):
+def monitorizar_sistema(duracion=30, intervalo=5):
     print("Iniciando monitorización del sistema...")
     inicio = datetime.now()
     try:
@@ -46,5 +46,5 @@ def monitorizar_sistema(duracion=15, intervalo=5):
         print("\nFinalizó la monitorización del sistema.")
 # Ejecutar la monitorización    
 if __name__ == "__main__":
-    monitorizar_sistema(duracion=15, intervalo=5)
+    monitorizar_sistema(duracion=30, intervalo=5)
     
