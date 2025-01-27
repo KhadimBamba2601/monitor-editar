@@ -1,7 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
 import psutil
-import os
 import time
 from datetime import datetime
 
