@@ -1,5 +1,4 @@
-# Evaluación final practica
-Proyecto de Monitor
+# Proyecto Monitor
 ## Descripción
 Este proyecto es una aplicación que permite monitorear en tiempo real el uso de los recursos principales de un sistema: CPU, memoria, disco y red. Ejecuta una ventana con un informe.
 
